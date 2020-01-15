@@ -1,21 +1,17 @@
 package edu.cnm.deepdive.ch2;
-
+// Character variables can be handles like integers.
 public class CharArithDemo {
-  public static void main (String args[]) {
-    boolean b;
+  public static void main(String args[]) {
+    char ch;
 
-    b = false;
-    System.out.println("b is " + b);
-    b = true;
-    System.out.println("b is " + b);
+    ch = 'x';
+    System.out.println("ch contains " + ch);
 
-    // a boolean value can control the if statement if(b)
-    System.out.println("THis is executed.");
+    ch++;
+    System.out.println("ch is now " + ch);
 
-    b = false;
-    if(b) System.out.println("This is not executed.");
-    // outcome of a realtional operator os a boolean value
-    System.out.println("10 > 9 is " + (10 > 9));
+    ch = 90;
+    System.out.println("ch is now " + ch);
   }
 
 }
